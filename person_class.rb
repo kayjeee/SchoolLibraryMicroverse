@@ -3,6 +3,7 @@ class Person < Nameable
   attr_reader :age
 
   def initialize(id, name, age)
+    super()  # Call super to initialize the parent class (Nameable)
     @id = id
     @name = name
     @age = age
