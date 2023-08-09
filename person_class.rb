@@ -1,6 +1,5 @@
 class Person < Nameable
-  attr_accessor :name
-  attr_reader :age
+  attr_accessor :name, :age
 
   def initialize(id, name, age)
     super() # Call super to initialize the parent class (Nameable)
