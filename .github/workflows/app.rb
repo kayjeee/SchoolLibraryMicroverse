@@ -109,7 +109,7 @@ def main
       person_id = gets.chomp.to_i
       list_rentals_for_person(person_id, rentals)
     when 0
-      puts "Goodbye!"
+      puts "Goodbye world!"
       break
     else
       puts "Invalid option. Please try again."
